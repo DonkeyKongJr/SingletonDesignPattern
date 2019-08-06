@@ -6,6 +6,7 @@ namespace SingletonDesignPattern
     {
         public string Name => "Singleton";
         private static BasicSingleton instance;
+        
         private BasicSingleton(){ }
 
         public static BasicSingleton GetInstance()
