@@ -7,7 +7,6 @@ namespace SingletonDesignPattern
         public string Name => "Singleton";
         private static ThreadSafeSingleton instance;
         private static readonly object singletonlock = new object();  
-
         
         private ThreadSafeSingleton(){ }
 
