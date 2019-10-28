@@ -3,8 +3,7 @@
 namespace SingletonDesignPattern
 {
     public class BasicSingleton
-    {
-        public string Name => "Singleton";
+    {        
         private static BasicSingleton instance;
         
         private BasicSingleton(){ }
