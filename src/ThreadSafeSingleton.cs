@@ -3,8 +3,7 @@
 namespace SingletonDesignPattern
 {
     public class ThreadSafeSingleton
-    {
-        public string Name => "Singleton";
+    {        
         private static ThreadSafeSingleton instance;
         private static readonly object singletonlock = new object();  
         
